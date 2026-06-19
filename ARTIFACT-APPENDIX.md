@@ -1,4 +1,4 @@
-# Artifact Appendix (Required for all badges)
+# Artifact Appendix 
 
 Paper title: **SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning**
 
