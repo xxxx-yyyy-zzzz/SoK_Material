@@ -8,8 +8,6 @@ Requested Badge(s):
   - [] **Reproduced**
 
 ## Description (Required for all badges)
-Replace this with the following:
-
 The artifact relate to the paper #139:  
 Title: SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning  
 Authors: Andrea Rizzini, Marco Esposito, Tommaso Gagliardoni, Francesco Bruschi  
