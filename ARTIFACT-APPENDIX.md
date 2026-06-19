@@ -49,13 +49,3 @@ You just need to install drawio and having the correct python version
 ### Accessibility (Required for all badges)
 
 Everything is available at this repository: https://github.com/xxxx-yyyy-zzzz/SoK_Material
-
-### Set up the environment (Required for Functional and Reproduced badges)
-
-### Testing the Environment (Required for Functional and Reproduced badges)
-
-## Artifact Evaluation (Required for Functional and Reproduced badges)
-
-## Limitations (Required for Functional and Reproduced badges)
-
-## Notes on Reusability (Encouraged for all badges)
