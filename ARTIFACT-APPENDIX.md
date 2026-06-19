@@ -86,17 +86,18 @@ cd SoK_Material
 
 No further configuration is needed. The environment is now ready.
 
-### Testing the Environment (Required for Functional and Reproduced badges)
+### Testing the Environment
 
 **1. Test the Python script (radar plot)**
 
 From the repository root, run:
 
 ```bash
+mkdir out
 python3 radar.py
 ```
 
-This will generate the radar plot (Figure 3 of the paper) and save it as a `vfl_radar_comparison_feasibility.png` file in the current directory. If matplotlib and numpy are correctly installed, the script will complete without errors.
+This will generate the radar plot (Figure 3 of the paper) and save it as `out/vfl_radar_comparison_feasibility.png`. If matplotlib and numpy are correctly installed, the script will complete without errors.
 
 **2. Test the draw.io diagrams**
 
@@ -104,6 +105,9 @@ The `.drawio` files can be opened with the draw.io desktop application. To open 
 
 ```bash
 drawio .drawio
+```
+
+This will open the draw.io GUI with the diagram loaded. The `.png` files included in the repository are the exported versions of each diagram and can be used as a reference to verify that the diagrams render correctly.
 ```
 
 This will open the draw.io GUI with the diagram loaded. The `.png` files included in the repository are the exported versions of each diagram and can be used as a reference to verify that the diagrams render correctly.
