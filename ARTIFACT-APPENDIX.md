@@ -15,7 +15,7 @@ Authors: Andrea Rizzini, Marco Esposito, Tommaso Gagliardoni, Francesco Bruschi
 Within this github repository you can find:  
 - drawios source code for the images we inserted in the paper (.drawio files)
 - the actual images we have inserted in the paper (.png files)
-- the source for the radarplot - figure3 (.py file)
+- the source code for the radarplot - figure3 (radar.py file)
 
 ### Security/Privacy Issues and Ethical Concerns (Required for all badges)
 
