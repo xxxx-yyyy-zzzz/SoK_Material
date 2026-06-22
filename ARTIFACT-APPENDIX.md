@@ -33,7 +33,7 @@ No special hardware is required, you can run everything on a commodity laptop
 2. Python 3.12.3 and drawio 28.0.6
 3. matplotlib and numpy are needed to run the python code
 
-### Estimated Time and Storage Consumption (Required for Functional and Reproduced badges)
+### Estimated Time and Storage Consumption
 
 Replace the following with estimated values for:
 
