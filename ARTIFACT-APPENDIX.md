@@ -4,10 +4,8 @@ Paper title: **SoK: Verifiable Integrity Claims for Privacy-Preserving Federated
 
 Requested Badge(s):
   - [x] **Available**
-  - [] **Functional**
-  - [] **Reproduced**
 
-## Description (Required for all badges)
+## Description 
 The artifact relate to the paper #139:  
 Title: SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learning  
 Authors: Andrea Rizzini, Marco Esposito, Tommaso Gagliardoni, Francesco Bruschi  
@@ -17,19 +15,19 @@ Within this github repository you can find:
 - the actual images we have inserted in the paper (.png files)
 - the source code for the radarplot - figure3 (radar.py file)
 
-### Security/Privacy Issues and Ethical Concerns (Required for all badges)
+### Security/Privacy Issues and Ethical Concerns 
 
 No security or privacy risks come from this artifact
 
-## Basic Requirements (Required for Functional and Reproduced badges)
+## Basic Requirements 
 
 No special hardware is required, you can run everything on a commodity laptop
 
-### Hardware Requirements (Required for Functional and Reproduced badges)
+### Hardware Requirements 
 
 No special hardware is required, you can run everything on a commodity laptop
 
-### Software Requirements (Required for Functional and Reproduced badges)
+### Software Requirements 
 
 1. OS: Ubuntu 24.04.4 LTS
 2. Python 3.12.3 and drawio 28.0.6
@@ -42,15 +40,15 @@ Replace the following with estimated values for:
 - no more than 20 minutes are required 
 - 2.3 MB
 
-## Environment (Required for all badges)
+## Environment 
 
 You just need to install drawio and having the correct python version
 
-### Accessibility (Required for all badges)
+### Accessibility 
 
 Everything is available at this repository: https://github.com/xxxx-yyyy-zzzz/SoK_Material
 
-### Set up the environment (Required for Functional and Reproduced badges)
+### Set up the environment
 
 The following instructions assume a fresh **Ubuntu 24.04.4 LTS** installation.
 
