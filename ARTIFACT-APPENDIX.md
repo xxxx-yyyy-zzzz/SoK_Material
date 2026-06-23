@@ -128,6 +128,8 @@ drawio .drawio
 ```
 
 This will open the draw.io GUI with the diagram loaded. The `.png` files included in the repository are the exported versions of each diagram and can be used as a reference to verify that the diagrams render correctly.
-```
 
-This will open the draw.io GUI with the diagram loaded. The `.png` files included in the repository are the exported versions of each diagram and can be used as a reference to verify that the diagrams render correctly.
+### Literature search and selection procedure reproducibility
+
+To broaden coverage beyond the works already known, we performed a structured search using multiple scholarly search engines, including Google Scholar. We used combinations of keywords such as: “verifiable federated learning,” “verifiability in federated learning,” “verifiable TEE-based federated learning,” “blockchain-based federated learning,” and related variants/synonyms. Candidate papers were collected from search results and then filtered according to the scope and framework defined in the paper. To further broaden coverage
+beyond conventional keyword search, we also used AI-assisted “deep research” tools (ChatGPT, Gemini, and Claude) as supplementary discovery mechanisms to identify potentially relevant papers and venues. All quantitative and qualitative information reported in this paper is extracted from publicly available published works and can be independently verified by consulting the cited sources.
