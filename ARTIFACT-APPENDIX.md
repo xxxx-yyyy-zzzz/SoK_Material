@@ -37,8 +37,6 @@ No special hardware is required, you can run everything on a commodity laptop
 
 ### Estimated Time and Storage Consumption
 
-Replace the following with estimated values for:
-
 - no more than 20 minutes are required 
 - 2.3 MB
 
