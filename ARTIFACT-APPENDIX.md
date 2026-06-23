@@ -11,9 +11,10 @@ Title: SoK: Verifiable Integrity Claims for Privacy-Preserving Federated Learnin
 Authors: Andrea Rizzini, Marco Esposito, Tommaso Gagliardoni, Francesco Bruschi  
 
 Within this github repository you can find:  
-- drawios source code for the images we inserted in the paper (.drawio files)
+- drawios source code for the images we inserted in the paper (.drawio files) - the draw.io figures are not containerized because they are manually authored diagrams rather than
+computational artifacts.
 - the actual images we have inserted in the paper (.png files)
-- the source code for the radarplot - figure3 (radar.py file)
+- the source code for the radarplot together with a Docker setup that reproduces the Matplotlib-generated radar plot used as Figure 3.
 
 ### Security/Privacy Issues and Ethical Concerns 
 
@@ -32,6 +33,7 @@ No special hardware is required, you can run everything on a commodity laptop
 1. OS: Ubuntu 24.04.4 LTS
 2. Python 3.12.3 and drawio 28.0.6
 3. matplotlib and numpy are needed to run the python code
+4. Docker Engine or Docker Desktop
 
 ### Estimated Time and Storage Consumption
 
@@ -86,7 +88,7 @@ No further configuration is needed. The environment is now ready.
 
 ### Testing the Environment
 
-**1. Test the Python script (radar plot)**
+**1. Test the Python script - radar plot (no Docker)**
 
 From the repository root, run:
 
@@ -97,7 +99,25 @@ python3 radar.py
 
 This will generate the radar plot (Figure 3 of the paper) and save it as `out/vfl_radar_comparison_feasibility.png`. If matplotlib and numpy are correctly installed, the script will complete without errors.
 
-**2. Test the draw.io diagrams**
+**2. Test the Python script - radar plot (Docker)**
+## Build
+
+From the root of the artifact repository:
+
+```sh
+docker build -t sok-vfl-radar .
+```
+
+## Run
+
+The default command runs `radar.py` from the repository root:
+
+```sh
+docker run --rm -v "$PWD":/artifact -w /artifact sok-vfl-radar
+open out/vfl_radar_comparison_feasibility.png
+```
+
+**3. Test the draw.io diagrams**
 
 The `.drawio` files can be opened with the draw.io desktop application. To open a file, run:
 
