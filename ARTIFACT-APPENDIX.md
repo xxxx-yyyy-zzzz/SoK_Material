@@ -42,7 +42,7 @@ No special hardware is required, you can run everything on a commodity laptop
 
 ## Environment 
 
-You just need to install drawio and having the correct python version
+You just need to install drawio, docker and having the correct python version
 
 ### Accessibility 
 
@@ -64,7 +64,11 @@ pip3 install matplotlib numpy --break-system-packages
 
 You can verify the installation with `python3 --version`, which should print `Python 3.12.x`.
 
-**2. Install draw.io 28.0.6**
+**2. Install Docker**  
+
+You can follow the steps described in the official docker manual at this link https://docs.docker.com/engine/install/ubuntu/#:~:text=Set%20up%20Docker%27s%20apt%20repository
+
+**3. Install draw.io 28.0.6**
 
 Download and install the official `.deb` package:
 
