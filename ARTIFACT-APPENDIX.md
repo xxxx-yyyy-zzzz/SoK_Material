@@ -79,7 +79,7 @@ sudo apt install -y ./drawio-amd64-28.0.6.deb
 
 You can verify the installation with `drawio --version`, which should print `28.0.6`.
 
-**3. Clone the repository**
+**4. Clone the repository**
 
 ```bash
 git clone https://github.com/xxxx-yyyy-zzzz/SoK_Material
